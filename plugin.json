@@ -1,0 +1,13 @@
+[  {    "id": "simple-pie-chart",    "name": "meu_plugin",    "type": "panel",    "description": "Um simples plugin",    "info": {      "author": {        "name": "Edu"    }    },    "dependencies": ["grafana"],
+    "panels": [
+      {
+        "id": "simple-pie-panel",
+        "name": "meu_plugin",
+        "description": "Um simples plugin",
+        "type": "simple-pie-chart",
+        "keywords": ["simple", "pie", "chart"],
+        "component": "module.tsx"
+      }
+    ]
+  }
+]
